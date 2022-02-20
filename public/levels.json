@@ -1,0 +1,136 @@
+{
+    "nodes": [
+        {
+            "key": "Hello, name",
+            "attributes": {
+                "x": 1,
+                "y": 0,
+                "size": 15,
+                "label": "Hello, name",
+                "level": 1
+            }
+        },
+        {
+            "key": "Level 2 choice 1",
+            "attributes": {
+                "x": 0,
+                "y": -1,
+                "size": 15,
+                "label": "Level 2 choice 1",
+                "level": 2
+            }
+        },
+        {
+            "key": "Level 2 choice 2",
+            "attributes": {
+                "x": 2,
+                "y": -1,
+                "size": 15,
+                "label": "Level 2 choice 2",
+                "level": 2
+            }
+        },
+        {
+            "key": "Level 3 choice 1",
+            "attributes": {
+                "x": -1,
+                "y": -2,
+                "size": 15,
+                "label": "Level 3 choice 1",
+                "level": 3
+            }
+        },
+        {
+            "key": "Level 3 choice 2",
+            "attributes": {
+                "x": 1,
+                "y": -2,
+                "size": 15,
+                "label": "Level 3 choice 2",
+                "level": 3
+            }
+        },
+        {
+            "key": "Level 4 choice 1",
+            "attributes": {
+                "x": 2,
+                "y": -2,
+                "size": 15,
+                "label": "Level 4 choice 1",
+                "level": 3
+            }
+        },
+        {
+            "key": "Level 4 choice 2",
+            "attributes": {
+                "x": 4,
+                "y": -2,
+                "size": 15,
+                "label": "Level 4 choice 2",
+                "level": 3
+            }
+        }
+    ],
+    "edges": [
+        {
+            "key": "Action 1",
+            "source": "Hello, name",
+            "target": "Level 2 choice 1",
+            "attributes": {
+                "size": 3,
+                "type": "arrow",
+                "label": "Test"
+            }
+        },
+        {
+            "key": "Action 2",
+            "source": "Hello, name",
+            "target": "Level 2 choice 2",
+            "attributes": {
+                "size": 3,
+                "label": "Test",
+                "type": "arrow"
+            }
+        },
+        {
+            "key": "Action 3",
+            "source": "Level 2 choice 1",
+            "target": "Level 3 choice 1",
+            "attributes": {
+                "size": 3,
+                "label": "Test",
+                "type": "arrow"
+            }
+        },
+        {
+            "key": "Action 4",
+            "source": "Level 2 choice 1",
+            "target": "Level 3 choice 2",
+            "attributes": {
+                "size": 3,
+                "label": "Test",
+                "type": "arrow"
+            }
+        },
+        {
+            "key": "Action 5",
+            "source": "Level 2 choice 2",
+            "target": "Level 4 choice 1",
+            "attributes": {
+                "size": 3,
+                "label": "Test",
+                "type": "arrow"
+            }
+        },
+        {
+            "key": "Action 6",
+            "source": "Level 2 choice 2",
+            "target": "Level 4 choice 2",
+            "attributes": {
+                "size": 3,
+                "label": "Test",
+                "type": "arrow"
+            }
+        }
+    ]
+}
